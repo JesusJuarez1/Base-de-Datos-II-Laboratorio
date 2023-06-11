@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PRACTICA1" id="A8C277DF-158E-9AFD-D498-BA494413C4C9" directorySegmentName="seg_0">
-   <createdBy>jesus</createdBy>
-   <createdTime>2021-08-19 02:40:45 UTC</createdTime>
-   <changedBy>jesus</changedBy>
-   <changedTime>2021-08-19 02:40:45 UTC</changedTime>
-   <ownerDesignName>model</ownerDesignName>
-   <schemaObject>9A402792-9CC5-9B65-1842-88DD6BD47507</schemaObject>
-</UserOraclev10g>
