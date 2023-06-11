@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="9ED2D822-083B-E77C-616A-B5D6D5684A7E" directorySegmentName="seg_0" name="IT_ASSETS">
+   <createdBy>jesus</createdBy>
+   <createdTime>2021-08-19 03:03:08 UTC</createdTime>
+   <changedBy>jesus</changedBy>
+   <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+   <generatorID>291109EE-3007-955A-0339-6C2E7CDAC7F4</generatorID>
+   <ownerDesignName>model</ownerDesignName>
+   <pkName>IT_ASSET_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ASSET_ID" id="B9BB581F-7644-D87D-E780-96767EA8C930">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 03:03:08 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+         <generatorID>BFA377E8-BB37-8758-A824-2D3CA9927D3D</generatorID>
+         <ownerDesignName>model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ASSET_TYPE_CODE" id="1957D847-0DFD-63C4-7E0D-35E050B0A9C2">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 03:03:08 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+         <generatorID>52344498-0D66-9A9F-265E-7D038258BF95</generatorID>
+         <ownerDesignName>model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>50157E16-30D2-71F5-D75A-5FC0BF7A4231</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+         <propertyMap>
+            <property name="refers.attribute" value="50157E16-30D2-71F5-D75A-5FC0BF7A4231"/>
+         </propertyMap>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DESCRIPTION" id="46128F43-D60A-CC4B-8CC8-4B07B6EBE923">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 03:03:08 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+         <generatorID>A92EB486-5D81-BF76-669C-A886DAE02C59</generatorID>
+         <ownerDesignName>model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="OTHER_DETAILS" id="CA9BEADB-F226-04AB-9881-1BEF9023EE25">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 03:03:08 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+         <generatorID>DAD7AFF6-227C-2A95-C0BC-C4E4AA749A9A</generatorID>
+         <ownerDesignName>model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="666000DF-0D1D-057C-C2CE-AB8CD4B6B7A2" name="IT_ASSET_PK">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 03:03:08 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+         <generatorID>A924964E-BD43-C576-EF75-90F03C1D3C75</generatorID>
+         <ownerDesignName>model</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>B9BB581F-7644-D87D-E780-96767EA8C930</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

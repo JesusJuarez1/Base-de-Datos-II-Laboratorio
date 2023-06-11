@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASSE_EMPLO_ASSE_FK" id="6CA7E043-5D0F-876D-B70F-B305E41F335B" directorySegmentName="seg_0">
+   <createdBy>jesus</createdBy>
+   <createdTime>2021-08-19 03:03:08 UTC</createdTime>
+   <changedBy>jesus</changedBy>
+   <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+   <generatorID>DD07FC50-7C70-5BBC-96E9-E5CB51A065DE</generatorID>
+   <ownerDesignName>model</ownerDesignName>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>9ED2D822-083B-E77C-616A-B5D6D5684A7E</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>BA287BBF-2E81-8CF6-6B83-238AA2BE999C</targetEntity>
+   <transferable>true</transferable>
+</Relation>

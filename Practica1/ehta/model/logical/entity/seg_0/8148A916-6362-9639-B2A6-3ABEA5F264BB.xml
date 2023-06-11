@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="8148A916-6362-9639-B2A6-3ABEA5F264BB" directorySegmentName="seg_0" name="ASSET_TYPES">
+   <createdBy>jesus</createdBy>
+   <createdTime>2021-08-19 03:03:07 UTC</createdTime>
+   <changedBy>jesus</changedBy>
+   <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+   <generatorID>2EBEC421-76E2-2521-8378-0E6F47C28C92</generatorID>
+   <ownerDesignName>model</ownerDesignName>
+   <pkName>ASSET_TYPES_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ASSET_TYPE_CODE" id="50157E16-30D2-71F5-D75A-5FC0BF7A4231">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 03:03:08 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+         <generatorID>261394BD-63BB-EF41-68B6-6F4A7A75F3B1</generatorID>
+         <ownerDesignName>model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ASSET_TYPE_DESCRIPTION" id="BC3B442A-4F90-EF21-C041-37B609B96A2E">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 03:03:08 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+         <generatorID>0A122023-FCA9-38DF-EF9C-2E5E956B034C</generatorID>
+         <ownerDesignName>model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="A22639EC-4B64-54D5-59D0-DA0237B663A4" name="ASSET_TYPES_PK">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 03:03:08 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 03:03:08 UTC</changedTime>
+         <generatorID>DC91C560-CC51-DE9D-882F-2CAE57AA4611</generatorID>
+         <ownerDesignName>model</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>50157E16-30D2-71F5-D75A-5FC0BF7A4231</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

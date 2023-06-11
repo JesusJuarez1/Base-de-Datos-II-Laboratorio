@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="E4AE6703-01D3-BCCF-A06F-4F0B0B30F8E9" directorySegmentName="seg_0" name="EMPLOYEE_ASSETS">
+   <createdBy>jesus</createdBy>
+   <createdTime>2021-08-19 02:41:39 UTC</createdTime>
+   <changedBy>jesus</changedBy>
+   <changedTime>2021-08-19 02:41:46 UTC</changedTime>
+   <ownerDesignName>model</ownerDesignName>
+   <schemaObject>9A402792-9CC5-9B65-1842-88DD6BD47507</schemaObject>
+   <pkName>EMPLOYEE_ASSET__PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ASSET_ID" id="CADC7886-F7AD-C7A7-7102-65F3A00040C1">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:39 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:39 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+         <delegate>BFA377E8-BB37-8758-A824-2D3CA9927D3D</delegate>
+         <associations>
+            <colAssociation fkAssociation="DD07FC50-7C70-5BBC-96E9-E5CB51A065DE" referredColumn="BFA377E8-BB37-8758-A824-2D3CA9927D3D"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EMPLOYEE_ID" id="E950A444-2204-2384-82FD-9F855E9D9451">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:39 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:39 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeSize>22</dataTypeSize>
+         <delegate>D5581EFE-5122-6BAC-BF52-FB50FAD569F3</delegate>
+         <associations>
+            <colAssociation fkAssociation="B7D52588-4902-28D0-00E4-C78B85C3931C" referredColumn="D5581EFE-5122-6BAC-BF52-FB50FAD569F3"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DATE_OUT" id="67943EF0-0F05-83E2-C51D-65728DC310A5">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:39 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:39 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <dataTypeSize>7</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DATE_RETURNED" id="019A5C9A-4845-C200-1D82-CFB5D2D666D5">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:39 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:39 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CONDITION_OUT" id="86306156-5905-E10D-3513-7CFAB9EACF74">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:39 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:39 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CONDITION_RETURNED" id="7A3C19F9-0756-92A9-2BF9-C7B24B3B7D7F">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:39 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:39 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="OTHER_DETAILS" id="1353E0FB-9631-B99F-2FFB-B3E542E28456">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:39 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:39 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="218E298F-2A42-029B-897D-4753D7B7A9A8" name="EMPLOYEE_ASSET__PK">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:39 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:39 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <schemaObject>9A402792-9CC5-9B65-1842-88DD6BD47507</schemaObject>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="CADC7886-F7AD-C7A7-7102-65F3A00040C1"/>
+            <colUsage columnID="E950A444-2204-2384-82FD-9F855E9D9451"/>
+            <colUsage columnID="67943EF0-0F05-83E2-C51D-65728DC310A5"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CFD854A7-8CA1-24AD-771A-23626B5735EB" name="EMPLO_EMPLO_ASSE_FK">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:39 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:39 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="E950A444-2204-2384-82FD-9F855E9D9451"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="FB6899B2-F060-2E98-49DA-D146E315D5EB" name="ASSE_EMPLO_ASSE_FK">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:46 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:46 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="CADC7886-F7AD-C7A7-7102-65F3A00040C1"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

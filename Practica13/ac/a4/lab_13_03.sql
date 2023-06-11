@@ -1,0 +1,1 @@
+Select employee_id, last_name from Employees where department_id = any (Select department_id from Employees where last_name like '%u%');

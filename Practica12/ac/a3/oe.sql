@@ -1,0 +1,2 @@
+Select c.cust_first_name,c.cust_last_name,pf.product_name,pf.list_price from Customers c join Orders o on (c.customer_id=o.customer_id) 
+join Order_Items oi on(o.order_id=oi.order_id) join Product_Information pf on (oi.product_id=pf.product_id and pf.list_price > 1000);

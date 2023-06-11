@@ -1,0 +1,1 @@
+Select job_id, count(*) from Employees where job_id = '&job_id' group by job_id;

@@ -1,0 +1,1 @@
+Select last_name, department_id, job_id from Employees where department_id in (Select department_id from Departments where location_id = &Department_id) order by department_id;

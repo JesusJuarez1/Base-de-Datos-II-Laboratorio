@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="IT_ASSET_INVENTORY" id="2AABC072-6097-58D5-F28B-CCEDFCABB868" directorySegmentName="seg_0">
+   <createdBy>jesus</createdBy>
+   <createdTime>2021-08-19 02:41:22 UTC</createdTime>
+   <changedBy>jesus</changedBy>
+   <changedTime>2021-08-19 02:41:46 UTC</changedTime>
+   <ownerDesignName>model</ownerDesignName>
+   <logging>YES</logging>
+   <partitionedRowMovement>DISABLE</partitionedRowMovement>
+   <segment>A69B45D6-0B3A-C213-A675-A1F14984D10E</segment>
+   <tableSpace>CE01A307-7E55-A4D9-6850-F46E72550BC4</tableSpace>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="INVENTORY_DATE" id="53ADB590-9F4A-7437-D039-79D9523E5A49">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:22 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:22 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <nncname>ASSET_INVEN_INVEN_NN</nncname>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ASSET_ID" id="870C3B48-5054-C752-83CD-CE981CF12633">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:22 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:22 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <nncname>IT_AS_AS_NN</nncname>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="NUMBER_IN_STOCK" id="90E7BF19-8C4B-1AE7-396F-FC089A7BA59C">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:22 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:22 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <nncname>ASSET_INVEN_NUM_IN_STOCK_NN</nncname>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="OTHER_DETAILS" id="A7E61062-E0F9-D6B1-A6B1-E2C83485E3D7">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:22 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:22 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="NUMBER_ASSINGNED" id="AC034DFF-9577-3433-1D33-D30341CAACFF">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:22 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:22 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <nncname>ASSET_INVEN_NUM_ASSIG_NN</nncname>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="IT_ASSET_INVENTORY_ID" id="AC0D9F0F-66B4-F907-EDDB-FFFA0D05FA1A">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:22 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:22 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+      </ColumnProxy>
+   </columnProxies>
+   <foreignKeys>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="IT_ASSET_IT_ASSET_INVEN_FK" id="1E852855-EA0A-0C83-11C6-15A7F256F0D6">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:46 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:46 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+      </ForeignKey>
+   </foreignKeys>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IT_ASSET_INVEN_PK" id="C0DC823F-9803-B8D7-51C5-8AB684E2A1D2">
+         <createdBy>jesus</createdBy>
+         <createdTime>2021-08-19 02:41:22 UTC</createdTime>
+         <changedBy>jesus</changedBy>
+         <changedTime>2021-08-19 02:41:22 UTC</changedTime>
+         <ownerDesignName>model</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>
